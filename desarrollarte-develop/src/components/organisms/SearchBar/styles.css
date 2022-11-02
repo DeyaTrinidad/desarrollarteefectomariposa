@@ -1,0 +1,59 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f4631b;
+  height: 100px;
+}
+#logo {
+  height: 50px;
+  padding: 5px 0px;
+}
+.search-bar > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.search-bar .input-group {
+  align-self: center;
+  height: 48px;
+  max-width: 500px;
+  margin-left: 20px;
+}
+.input-group input,
+.input-group button {
+  height: 48px;
+}
+.input-group button {
+  height: 48px;
+  padding: 0px 30px;
+  border: 1px solid #333;
+}
+#search {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.whishlist-and-shopping-bag {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whishlist-and-shopping-bag a {
+  color: #fff;
+  align-self: center;
+}
+.whishlist-and-shopping-bag__icon {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+@media (max-width: 425px) {
+  #search-bar__categories {
+    display: none;
+  }
+  #search {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

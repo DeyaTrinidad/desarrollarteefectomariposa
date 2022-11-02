@@ -1,0 +1,54 @@
+.header-overlay {
+  height: 60vh;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.header-container > h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  text-align: center;
+}
+.header-container > p {
+  color: #fff;
+  font-size: 1.5rem;
+  z-index: 1;
+  text-align: center;
+}
+.header-counters {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  color: #fff;
+  z-index: 1;
+}
+.header-counters > div {
+  text-align: center;
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
+.header-counters > div:last-child {
+  margin-right: 0px;
+}
+.header-counters > div > h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+#all-products {
+  z-index: 1;
+  padding: 10px 40px;
+  font-weight: 600;
+  color: #666666;
+}
+@media (max-width: 425px) {
+  .header-container > h1 {
+    font-size: 3.5rem;
+  }
+  .header-container > p {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,30 @@
+.navbar__header {
+  background-color: #fff;
+}
+.navbar__header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+.btn.btn-light.btn-dropdown-list,
+.navbar__header-nav {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 0.8rem;
+}
+.navbar__header-nav > a {
+  text-transform: uppercase;
+  padding: 0px 10px;
+  color: #999;
+  font-size: 0.8rem;
+}
+@media (max-width: 425px) {
+  .navbar__header > .container {
+    display: block;
+  }
+  .btn.btn-light.btn-dropdown-list,
+  .navbar__header-nav > a {
+    font-size: 0.7rem;
+  }
+}
